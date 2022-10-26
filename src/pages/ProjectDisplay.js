@@ -11,7 +11,7 @@ export const ProjectDisplay = () => {
   return (
     <div className='project'>
       <h1>{project.name}</h1>
-      <img src={project.image} />
+      <img src={project.image} alt='randomtext' />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
